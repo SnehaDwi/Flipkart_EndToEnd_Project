@@ -41,4 +41,7 @@ public class Library {
             e.printStackTrace();
         }
     }
+     public void teardown() {
+    	 driver.close();
+     }
 }

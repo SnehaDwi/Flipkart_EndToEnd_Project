@@ -1,2 +1,17 @@
-.Property
-.metadata
+# Eclipse / IDE
+.metadata/
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# Compiled files
+*.class
+
+# Properties (generated)
+target/**/*.properties
+
+# Logs
+*.log
